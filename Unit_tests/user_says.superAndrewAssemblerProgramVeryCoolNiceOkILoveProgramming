@@ -1,0 +1,7 @@
+Loop:
+PUSH $3.14
+JLE  %4, %3, Loop
+POP  %2
+ADD
+SIN
+COS
